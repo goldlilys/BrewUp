@@ -31,6 +31,15 @@ brew "zsh"
 brew "drud/ddev/ddev"
 brew "pantheon-systems/external/terminus"
 brew "platformsh/tap/platformsh-cli"
+mas "CapCut", id: 1500855883
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "IP Scanner", id: 6443819966
+mas "Keynote", id: 409183694
+mas "NordVPN", id: 905953485
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Slack", id: 803453959
 vscode "abusaidm.html-snippets"
 vscode "amiralizadeh9480.laravel-extra-intellisense"
 vscode "bmewburn.vscode-intelephense-client"
