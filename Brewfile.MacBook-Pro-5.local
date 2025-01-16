@@ -1,3 +1,4 @@
+tap "ddev/ddev"
 tap "drud/ddev"
 tap "homebrew/bundle"
 tap "homebrew/services"
@@ -5,19 +6,20 @@ tap "pantheon-systems/external"
 tap "platformsh/tap"
 brew "ack"
 brew "bash-completion"
-brew "glib"
-brew "gnutls"
 brew "lima"
 brew "colima"
 brew "openldap"
 brew "composer"
 brew "docker"
-brew "docker-machine", restart_service: true
+brew "docker-machine", restart_service: :changed
 brew "git"
+brew "glib"
+brew "gnutls"
 brew "mkcert"
 brew "mysql-client"
 brew "node"
 brew "nss"
+brew "php@8.2", restart_service: :changed, link: true
 brew "pyenv"
 brew "python@3.11"
 brew "python@3.9"
@@ -31,12 +33,12 @@ brew "zsh"
 brew "drud/ddev/ddev"
 brew "pantheon-systems/external/terminus"
 brew "platformsh/tap/platformsh-cli"
+cask "orbstack"
 mas "CapCut", id: 1500855883
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "IP Scanner", id: 6443819966
 mas "Keynote", id: 409183694
-mas "NordVPN", id: 905953485
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Slack", id: 803453959
