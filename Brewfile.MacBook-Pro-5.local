@@ -19,7 +19,8 @@ brew "mkcert"
 brew "mysql-client"
 brew "node"
 brew "nss"
-brew "php@8.2", restart_service: :changed, link: true
+brew "php@8.2", restart_service: :changed
+brew "phpbrew"
 brew "pyenv"
 brew "python@3.11"
 brew "python@3.9"
