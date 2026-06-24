@@ -27,7 +27,7 @@ brew "php"
 # Dependency Manager for PHP
 brew "composer"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Create Docker hosts locally and on cloud providers
 brew "docker-machine", restart_service: :changed
 # Distributed revision control system
